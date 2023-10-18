@@ -1,5 +1,38 @@
 .logoinicio{
-    WIDTH: 1500px;
+    WIDTH: 200px;
     min-height: 100PX;
+   
     
 }
+
+
+
+#carousel1, #caroulsel2, #carousel3{
+    border-radius: 2%;
+    width: 70%;
+    height: 90%;
+    
+}
+
+#navbarNav{
+    border-radius: 10%;
+    width: 100%;
+}
+
+.carousel-item img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.logoinicio img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75%;
+}
+
+.body{
+    background-image: url("fundo.png");
+}                  
