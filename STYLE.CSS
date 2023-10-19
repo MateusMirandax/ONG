@@ -1,10 +1,11 @@
-.logoinicio{
-    WIDTH: 200px;
-    min-height: 100PX;
-   
-    
+*{
+    font-family: 'Tilt Neon', sans-serif;  
+    font-size: 17px;
 }
 
+#logo1{
+    width: 100%;
+}
 
 
 #carousel1, #caroulsel2, #carousel3{
@@ -14,10 +15,31 @@
     
 }
 
-#navbarNav{
-    border-radius: 10%;
+.navbar{
+    background-color: rgb(85, 218, 218);
+    height: 90px;
+    margin-bottom: 70px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
 }
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#logoD{
+    margin-right: 335px;
+    margin-left: 30px;
+}
+
+
 
 .carousel-item img{
     display: flex;
@@ -26,13 +48,43 @@
     margin-left: 15%;
 }
 
-.logoinicio img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 75%;
-}
 
 .body{
     background-image: url("fundo.png");
 }                  
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.carousel-indicators{
+    top: 570px;
+}
+
+.col-md-4{
+   justify-content: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.btn, .btn-primary{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#fale{
+    color: rgb(85, 218, 218);
+}
+
+#send{
+    background-color: rgb(85, 218, 218);
+    border: none;
+}
