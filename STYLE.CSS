@@ -197,7 +197,8 @@ iv.gallery {
   .responsive {
     padding: 0 6px;
     float: left;
-   width: 24.99999%;
+    width: 24.99999%;
+    height: 200px;
   }
   
    
