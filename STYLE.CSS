@@ -14,12 +14,18 @@
     height: 90%;
     
 }
+img, svg {
+  vertical-align: middle;
+  height: 80px;
+  position: relative;
+  left: 30px;
+}
 
 /* Style the navigation bar */
 .navbar {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #042c5a;
   overflow: auto;
 }
  
@@ -27,11 +33,12 @@
 .navbar a {
   float: left;
   text-align: center;
-  padding: 14px 16px;
-  color: rgb(0, 38, 255);
+  padding: 5px;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
+
  
 /* Navbar links on mouse-over */
 .navbar a:hover {
@@ -47,8 +54,6 @@
     display: block;
   }
 }
-
-
 
 .container-fluid{
     display: flex;
